@@ -1,0 +1,23 @@
+input:checked{
+    counter-increment: objetos;
+}
+.num:after{
+    content: counter(objetos);
+}
+.objetos{
+    counter-reset: objetos;
+}
+input[type=checkbox]{
+    visibility: hidden;
+}
+label{
+    background-color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input[type=checkbox]:checked + label{
+    background-color: lightgray;
+}

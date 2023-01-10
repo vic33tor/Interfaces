@@ -1,0 +1,24 @@
+table{
+    border: 1px black solid;
+}
+#dias td{
+    border: 0px;
+    width: auto;
+    height: auto;
+    border-bottom: 1px lightgray solid;
+    padding: 10px;
+    background-color: lightblue;
+}
+th{
+    height: 100px;
+    background-color: cornflowerblue;
+    font-size: x-large;
+}
+td{
+    border: 1px lightgray solid;
+    width: 150px;
+    height: 100px;
+}
+.empty{
+    background-color: rgb(230, 234, 238);
+}

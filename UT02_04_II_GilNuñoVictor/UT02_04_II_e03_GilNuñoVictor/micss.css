@@ -1,0 +1,25 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    background-color: white;
+    border: 1px green dotted;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+img{
+    border: 1px black solid;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+#imagen2{
+    margin-top: 250px;
+}
+#imagen3{
+    margin-top: 350px;
+}

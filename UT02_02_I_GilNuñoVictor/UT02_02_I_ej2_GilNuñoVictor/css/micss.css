@@ -1,0 +1,31 @@
+body{
+    color: blue;
+}
+h1{
+    color: #00ff00;
+    text-align: center;
+    text-decoration: overline;
+}
+h2{
+    color: rgb(255,0,0);
+    text-decoration: line-through;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+.derecha{
+    text-align: right;
+}
+h3{
+    text-decoration: underline;
+}
+.mayuscula{
+    text-transform: uppercase;
+}
+.minuscula{
+    text-transform: lowercase;
+}
+.capital{
+    text-transform: capitalize;
+}

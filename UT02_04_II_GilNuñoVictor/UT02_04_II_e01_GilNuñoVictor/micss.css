@@ -1,0 +1,99 @@
+div{
+    border: 1px lightgray solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#div1 p:nth-child(2){
+    border-style: dotted;
+}
+#div1 p:nth-child(3){
+    border-style: dashed;
+}
+#div1 p:nth-child(4){
+    border-style: solid;
+}
+#div1 p:nth-child(5){
+    border-style: double;
+}
+#div1 p:nth-child(6){
+    border: greenyellow groove;
+}
+#div1 p:nth-child(7){
+    border: greenyellow ridge;
+}
+#div1 p:nth-child(8){
+    border: greenyellow inset;
+}
+#div1 p:nth-child(9){
+    border: greenyellow outset;
+}
+#div2 p {
+    padding: 15px;
+}
+#div2 p:nth-child(1){
+    border-bottom: 1px red solid;
+}
+#div2 p:nth-child(2){
+    border: 1px solid;
+    border-radius: 20px;
+}
+#div2 p:nth-child(3){
+    border-left: blue solid;
+    background-color: aqua;
+}
+#div3 p:nth-child(1){
+    border: black solid;
+    border-top: red double;
+}
+#div3 p:nth-child(2){
+    border-style: solid;
+    border-left-width: 15px;
+}
+#div3 p:nth-child(3){
+    border: blue solid;
+}
+#div3 p:nth-child(4){
+    border:solid;
+    border-color: red blue;
+}
+#div3 p:nth-child(5){
+    border:solid;
+    border-color: red green blue;
+}
+#div3 p:nth-child(6){
+    border:solid;
+    border-color: red green blue pink;
+}
+#div4 p:nth-child(1){
+    border: red solid;
+    outline: black dotted;
+}
+#div4 p:nth-child(2){
+    border: red solid;
+    outline: black dashed;
+}
+#div4 p:nth-child(3){
+    border: red solid;
+    outline: black solid;
+}
+#div4 p:nth-child(4){
+    border: red solid;
+    outline: black double;
+}
+#div4 p:nth-child(5){
+    border: red solid;
+    outline: black groove;
+}
+#div4 p:nth-child(6){
+    border: red solid;
+    outline: black ridge;
+}
+#div4 p:nth-child(7){
+    border: red solid;
+    outline: black inset;
+}
+#div4 p:nth-child(8){
+    border: red solid;
+    outline: black outset;
+}
